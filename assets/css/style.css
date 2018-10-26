@@ -1,0 +1,58 @@
+body{
+	background: url("../images/stockvault-vhs-cassettes111923.jpg");
+	background-size: 100%;
+    background-repeat:repeat-y;
+    color: rgb(216, 204, 31);
+    font-family: 'Bungee Inline';
+    text-shadow: rgb(9, 54, 179) 1px 0 10px;
+    box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height:200px;
+    width: 200px;
+}
+.btn {
+    /* adding spacing between each button*/
+    margin: 3px;
+    background-color:none;
+    border-color: #fff;
+}
+.gifDiv{
+    /* making the images go in one line rather than block & adding spacing between the images*/
+    float: left;
+    margin: 3px;
+}
+.container {
+	
+    padding: 20px;
+    background:none;
+}
+.jumbotron {
+    background: inherit;
+    background-repeat: no-repeat;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+#copyright{
+	font-size: 14px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+#gifBtns {
+    background-color: none;
+    border: none;
+}
+.gif{
+    border: 3px, solid, green;
+    border-image:  rgb(9, 54, 179) 1px 0 10px;
+}
