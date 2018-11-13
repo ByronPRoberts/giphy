@@ -29,7 +29,7 @@ $(document).ready(function(){
 
     function displayGif(){
         var userGif = $(this).attr("data-name");
-        var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + userGif + "&api_key=BcWuKX52OYVBK3Fhk3hmwrqwsedEKx1C";
+        var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + userGif + "&api_key=BcWuKX52OYVBK3Fhk3hmwrqwsedEKx1C";
         console.log(queryUrl);
         $.ajax({
             url: queryUrl,

@@ -16,14 +16,17 @@ img {
 }
 .btn {
     /* adding spacing between each button*/
+    padding: 10px;
     margin: 3px;
     background-color:none;
-    border-color: #fff;
+    border-color: none;
 }
 .gifDiv{
     /* making the images go in one line rather than block & adding spacing between the images*/
     float: left;
     margin: 3px;
+    opacity: 0.8;
+    background: rgb(9, 54, 179);
 }
 .container {
 	
@@ -55,4 +58,8 @@ div#footer {
 .gif{
     border: 3px, solid, green;
     border-image:  rgb(9, 54, 179) 1px 0 10px;
+}
+#gifSpot{
+    opacity: 0.8;
+    background: rgb(9, 54, 179);
 }
